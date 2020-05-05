@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 2020_05_05_190219) do
   create_table "dailies", force: :cascade do |t|
     t.string "date"
     t.string "text"
+    t.integer "horoscope_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

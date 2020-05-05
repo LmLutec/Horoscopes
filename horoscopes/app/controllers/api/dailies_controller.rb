@@ -6,7 +6,7 @@ class Api::DailiesController < ApplicationController
         options = {
             include: [:horoscope]
         }
-        render json: DailySerializer.new(dailies,options)
+        render json: DailySerializer.new(dailies, options)
     end 
 
     def create
