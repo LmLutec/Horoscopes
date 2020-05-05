@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  start_date: MyString
+  end_date: MyString
+  symbol: MyString
+  house: MyString
+  planet: MyString
+  element: MyString
+  quality: MyString
+  polarity: MyString
+
+two:
+  name: MyString
+  start_date: MyString
+  end_date: MyString
+  symbol: MyString
+  house: MyString
+  planet: MyString
+  element: MyString
+  quality: MyString
+  polarity: MyString
